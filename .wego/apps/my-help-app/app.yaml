@@ -1,0 +1,7 @@
+apiVersion: wego.weave.works/v1alpha1
+kind: Application
+metadata:
+  name: my-help-app
+spec:
+  path: ./hello-world
+  url: ssh://git@github.com/jrryjcksn/external-repo-test.git
